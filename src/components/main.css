@@ -1,0 +1,29 @@
+.card{
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%) !important;
+  border: 2px solid #d7d2d2;
+  border-radius: 20px !important;
+  padding-top: 26px;
+  background: aliceblue !important;
+  text-align: center;
+  min-height: 26rem;
+}
+.card-image{
+  height: 100%;
+    width: 100%;
+    object-fit: contain !important;
+}
+.card-heading{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* .card:hover {
+  background-color: yellow !important;
+} */
+
+.card-detail-image-div{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
